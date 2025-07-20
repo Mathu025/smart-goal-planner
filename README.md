@@ -24,7 +24,7 @@ A simple React-based web application that allows users to create, manage, and tr
 
 ### View Live Site
 
-Visit the deployed application at: "https://mathu025.github.io/PROJECT-CHALLENGE/"
+Visit the deployed application at: "https://mathu025.github.io/smart-goal-planner/"
 
 ### Local Development
 
@@ -52,7 +52,7 @@ If you want to run the project locally, you'll need:
 
 ## Related Repositories
 
-- Repository: "https://github.com/Mathu025/PROJECT-CHALLENGE"
+- Repository: "https://github.com/Mathu025/smart-goal-planner"
 - Deployed API: "http://localhost:3000/goals"
 
 ## Support and Contact Details
