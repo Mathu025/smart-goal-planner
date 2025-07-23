@@ -53,7 +53,7 @@ If you want to run the project locally, you'll need:
 ## Related Repositories
 
 - Repository: "https://github.com/Mathu025/smart-goal-planner"
-- Deployed API: "http://localhost:3000/goals"
+- Deployed API: "https://json-server-3-q655.onrender.com"
 
 ## Support and Contact Details
 
