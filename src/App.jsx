@@ -116,7 +116,7 @@ const App = () => {
 
     const updatedSavedAmount = parseFloat(goalToUpdate.savedAmount) + parseFloat(deposit.amount)
 
-    fetch(`http://localhost:3000/goals/${goalToUpdate.id}`, {
+    fetch(`https://json-server-3-q655.onrender.com/goals/${goalToUpdate.id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json"
