@@ -23,7 +23,7 @@ const App = () => {
 
 
   useEffect(() => {
-    fetch("http://localhost:3000/goals")
+    fetch("https://json-server-3-q655.onrender.com/goals")
     .then((response) => response.json())
     .then((data) => setGoals(data))
   },[]);
@@ -45,7 +45,7 @@ const App = () => {
     }
   
     if (editingGoalId) {
-    fetch(`http://localhost:3000/goals/${editingGoalId}`, {
+    fetch(`https://json-server-3-q655.onrender.com/goals/${editingGoalId}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json"
@@ -66,7 +66,7 @@ const App = () => {
     })
   } else {
     
-  fetch("http://localhost:3000/goals", {
+  fetch("https://json-server-3-q655.onrender.com/goals", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -100,7 +100,7 @@ const App = () => {
   }
 
   const deleteGoal = (id) => {
-    fetch(`http://localhost:3000/goals/${id}`, {
+    fetch(`https://json-server-3-q655.onrender.com/goals/${id}`, {
       method: "DELETE"
     })
     .then(() => {
