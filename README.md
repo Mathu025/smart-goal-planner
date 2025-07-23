@@ -24,7 +24,7 @@ A simple React-based web application that allows users to create, manage, and tr
 
 ### View Live Site
 
-Visit the deployed application at: "https://mathu025.github.io/smart-goal-planner/"
+Visit the deployed application at: "https://smart-app-planner1.netlify.app/"
 
 ### Local Development
 
